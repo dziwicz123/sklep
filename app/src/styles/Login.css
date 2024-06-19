@@ -1,0 +1,41 @@
+body {
+  background: #007bff;
+}
+
+.btn-login {
+  padding: 0.75rem 1.5rem; /* Generous padding for better visibility */
+  font-size: 1.25rem; /* Larger font size */
+  color: #ffffff; /* White text */
+  background-color: #28a745; /* Green background */
+  border: none; /* No border */
+  border-radius: 0.5rem; /* Rounded corners */
+  transition: background-color 0.3s; /* Background color transition on hover */
+}
+
+.btn-login:hover {
+  background-color: #19692c; /* Darker green on hover */
+}
+
+.mdb-input {
+  border: 2px solid #007bff; /* Light blue border */
+  padding: 10px;
+  width: 95%; /* or any other percentage or fixed width you prefer */
+  margin: auto; /* centers the input box if it's not full-width */
+}
+
+.label-fade, .label-visible {
+  transition: opacity 0.5s ease-out;
+}
+
+.label-fade {
+  opacity: 0;
+}
+
+.label-visible {
+  opacity: 1;
+}
+
+/* Add custom background color for Card */
+.bg-custom {
+  background-color: #E2F3F7 !important; /* Set the desired background color */
+}
